@@ -1,0 +1,42 @@
+body {
+    font-family: "Secular One", serif;
+    background-color: black;
+}
+
+.phones {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%; /* Уменьшаем ширину изображения в два раза */
+    height: auto; /* Сохраняем пропорции высоты */
+}
+
+.newphones {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%; /* Уменьшаем ширину изображения в два раза */
+    height: auto; /* Сохраняем пропорции высоты */
+}
+
+.newtext {
+    color: white;
+    position: absolute;
+    top: -350px;
+    right: 0;
+    max-width: 300px; /* Ограничиваем максимальную ширину текста */
+    text-align: justify; /* Выравнивание текста по ширине */
+    padding: 500px; /* Внутренний отступ для улучшения читаемости */
+    font-size: 20px;
+}
+
+.pick {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 300px;
+    font-size: 20px;
+    max-width: 300px; /* Ограничиваем максимальную ширину текста */
+    text-align: justify; /* Выравнивание текста по ширине */
+    padding: 20px; /* Внутренний отступ для улучшения читаемости */
+}

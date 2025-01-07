@@ -1,0 +1,196 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* @media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+    label, input, textarea, button {
+        display: block;
+        width: 100%;
+    }
+} */
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+body {
+    font-family: "Secular One", serif;
+    background-color: black;
+}
+
+.ass {
+    padding: 40px;
+}
+
+.chislo {
+    color: red;
+    padding: 50px;
+    font-size: 70px;
+    margin-top: -55px;
+}
+
+.semen {
+    color: inherit;
+}
+
+.free {
+    color: white;
+    font-size: 70px;
+    padding: 50px;
+    margin-top: -165px
+}
+
+.check {
+    padding: 40px;
+    margin-top: -200px;
+}
+
+.things {
+    padding: 50px;
+    margin-top: -150px;
+    font-size: 50px;
+}
+
+.saw {
+    color: white;
+    padding: 50px;
+    font-size: 30px;
+    margin-top: -50px;
+}
+
+.cum {
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+    width: 1500px;
+    height: auto;
+}
+
+.phones {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%; /* Уменьшаем ширину изображения в два раза */
+    height: auto; /* Сохраняем пропорции высоты */
+}
+
+.newphones {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%; /* Уменьшаем ширину изображения в два раза */
+    height: auto; /* Сохраняем пропорции высоты */
+}
+
+.newtext {
+    color: white;
+    position: absolute;
+    top: -350px;
+    right: 0;
+    max-width: 300px; /* Ограничиваем максимальную ширину текста */
+    text-align: justify; /* Выравнивание текста по ширине */
+    padding: 500px; /* Внутренний отступ для улучшения читаемости */
+    font-size: 20px;
+}
+
+.pick {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 300px;
+    font-size: 20px;
+    max-width: 300px; /* Ограничиваем максимальную ширину текста */
+    text-align: justify; /* Выравнивание текста по ширине */
+    padding: 20px; /* Внутренний отступ для улучшения читаемости */
+}
+
+.div {
+    display: flex;
+    padding-left: 50px;
+    font-size: 20px;
+    color: white;
+    justify-content: space-between;
+    width: 200px;
+    transform: translateX(500px);
+    position: relative;
+    top: -40px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.first {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.second {
+    color: white;
+    font-size: 25px;
+}
+
+.stick {
+    background: linear-gradient(to right);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input:focus {
+    opacity: 1;
+}
+
+button {
+    background: linear-gradient(to right, #007991, #78ffd6);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: linear-gradient(to right, #78ffd6, #007991);
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 2px solid rgba(81, 203, 238, 1);
+}
+
+.five {
+    color: white;
+    font-size: 20px;
+}
+
+
+input {
+    background-color: white;
+    color: black;
+    border: none;
+    transition: none;
+}
+
+.david {
+    display: flex;
+    flex-direction: column;
+}
+
+#message {
+    font-size: 15px;
+}
